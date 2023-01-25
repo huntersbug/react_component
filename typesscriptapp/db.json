@@ -1,0 +1,59 @@
+{
+  "todos": [
+    {
+      "0": {
+        "0": {
+          "0": {
+            "0": {
+              "id": 1,
+              "title": "Learn Redux",
+              "status": true
+            },
+            "id": 1,
+            "title": "Learn Redux",
+            "status": true
+          },
+          "id": 1,
+          "title": "Learn Redux",
+          "status": true
+        },
+        "id": 1,
+        "title": "Learn Redux",
+        "status": true
+      },
+      "id": 1,
+      "title": "Learn Redux",
+      "status": true
+    },
+    {
+      "0": {
+        "0": {
+          "title": "Learn TypeScript",
+          "status": true,
+          "id": 2
+        },
+        "title": "Learn TypeScript",
+        "status": true,
+        "id": 2
+      },
+      "title": "Learn TypeScript",
+      "status": true,
+      "id": 2
+    },
+    {
+      "0": {
+        "title": "Learn java",
+        "id": 3,
+        "status": true
+      },
+      "title": "Learn java",
+      "id": 3,
+      "status": false
+    },
+    {
+      "title": "Learn React",
+      "id": 4,
+      "status": false
+    }
+  ]
+}
