@@ -1,0 +1,25 @@
+.container{
+    width:100%;
+    border: 1px solid teal;
+    height: 60px;
+    border-radius: 2px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.container p{
+font-size: large;
+color: rgb(52, 50, 50);
+
+
+}
+.cart{
+    position: relative;
+}
+.cart span{
+    position: absolute;
+  left: 10;
+   top: -10px
+}

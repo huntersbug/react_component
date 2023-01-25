@@ -1,0 +1,140 @@
+.container {
+  width: 95%;
+  height: auto;
+
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.leftsidebar {
+  width: 20%;
+  height: 600px;
+  border: 1px solid green;
+  border-radius: 10px;
+}
+.rightsidebar {
+  width: 100%;
+  height: auto;
+
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 5px;
+}
+.colors {
+  margin-bottom: -8px;
+}
+.checkbox {
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+  height: 30px;
+  border: 1px solid green;
+
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-evenly;
+}
+
+.checkbox label {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  color: teal;
+}
+.checkbox input {
+  transform: scale(2);
+}
+.card_items {
+  width: 100%;
+  border: 1px solid red;
+  height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 10px;
+}
+
+.card_items img {
+  width: 80px;
+  height: 80px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.searchbox {
+  width: 50%;
+
+  height: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.input {
+  width: 80%;
+}
+.searchbox button {
+  width: 26px;
+  height: 26px;
+}
+.input input {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .checkbox {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    height: 30px;
+    border: 1px solid green;
+
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-evenly;
+  }
+  .checkbox label {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 200;
+    font-family: "Times New Roman", Times, serif;
+    color: teal;
+    margin-top: 10px;
+  }
+  .checkbox input {
+    transform: scale(2);
+  }
+}
+
+@media (max-width: 550px) {
+  .leftsidebar {
+    display: none;
+    /* width: 50%;
+height: auto;
+margin: auto; */
+  }
+  .container {
+    width: 95%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+  .rightsidebar {
+    width: 100%;
+    height: auto;
+    border: 1px solid green;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+  }
+}
